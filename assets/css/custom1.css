@@ -1,0 +1,69 @@
+
+#exampleSlider {
+  position: relative;
+  padding-top: 5px;
+}
+
+#exampleSlider .MS-content {
+  margin: 15px 5%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content {
+    margin: 0;
+  }
+}
+#exampleSlider .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  
+  width: 33.33%;
+}
+@media (max-width: 1200px) {
+  #exampleSlider .MS-content .item {
+    width: 33.33%;
+  }
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-content .item {
+    width: 33.3333%;
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content .item {
+    width: 33.33%;
+  }
+}
+
+#exampleSlider .MS-controls span{
+  position: absolute;
+  background: transparent;
+  font-size: 30px;
+  outline: 0;
+  top:30px;
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-controls span {
+    display: none;
+  }
+}
+#exampleSlider .MS-controls span:hover {
+  cursor: pointer;
+}
+#exampleSlider .MS-controls .MS-left {
+  left: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+#exampleSlider .MS-controls .MS-right {
+  right: 10px;
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-right {
+    right: -2px;
+  }
+}
