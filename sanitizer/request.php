@@ -5,9 +5,9 @@
  	 $fname  = $_POST["san-your-name"];
  	 $address= $_POST["san-address"];
 	 $address2 = $_POST["san-address-line-2"];
-	 $city = $_POST["san-city"];
+	 // $city = $_POST["san-city"];
  	 $state  = $_POST["san-menu-state"];
- 	 $country= $_POST["san-billing_country"];
+ 	 // $country= $_POST["san-billing_country"];
 	 $zip = $_POST["san-number-744"];
 	 $phone = $_POST["san-number-13"];
  	 $size  = $_POST["san-menu-739"];
@@ -37,29 +37,15 @@
 	                   ".  $address . " " . $address2 ."</td>
 	                 </tr>
 
-
-	   			  	<tr>
-	                   <td align='left' width='35%'><strong>City :</strong></td>
-	                   <td align='left' width='60%'>
-	                   ". $city ."</td>
-	                 </tr>
-
-
 	                 <tr>
 	                   <td align='left' width='35%'><strong>State :</strong></td>
 	                   <td align='left' width='60%'>
 	                   ".  $state ."</td>
 	                 </tr>
 
-	                  <tr>
-	                   <td align='left' width='35%'><strong>Country:</strong></td>
-	                   <td align='left' width='60%'>
-	                   ".  $country ."</td>
-	                 </tr>
-
 
 	   			  	<tr>
-	                   <td align='left' width='35%'><strong>Zip :</strong></td>
+	                   <td align='left' width='35%'><strong>Zip Code :</strong></td>
 	                   <td align='left' width='60%'>
 	                   ". $zip ."</td>
 	                 </tr>
