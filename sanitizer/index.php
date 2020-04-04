@@ -536,8 +536,8 @@ $now = time(); ?>
                 <div class="container-fluid padding-top">
                
                  <div class="image-holder-new">
-                 <a href="https://us.fullscript.com/welcome/aspcares" target="_blank" class="image-links">
-                  <img src="../assets/images/supplyment.jpg" class="img-fluid custom-image-image"/>
+                 <a href="#shop-form" target="_blank" class="image-links">
+                  <img src="../assets/images/sanitizer.jpg" class="img-fluid custom-image-image"/>
                                         <div class="centered">
 
                                         <h1 class="main_section_title shop" lang="en">Compounding Hand Sanitizer
@@ -553,7 +553,7 @@ $now = time(); ?>
 
 
 
-                <div class="row">
+                <div class="row" id="shop-form">
                     <div class="col small-12 large-12">
                         <div class="col-inner">
                             <!-- <h2 style="text-align: center;margin-bottom:30px;">Enquire Now</h2> -->
@@ -577,59 +577,70 @@ $now = time(); ?>
                                     <p class="form-row form-row-last">
                                         <label> First Name<span class="required">*</span></label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap your-name"><input type="text" name="san-your-name" id="san-your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="First Name" /></span>
+                                        <span class="wpcf7-form-control-wrap your-name"><input type="text" name="san-your-name" id="san-your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="First Name"  required/></span>
                                     </p>
                                     
                                     <p class="form-row form-row-first">
                                         <label> Address<span class="required">*</span></label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap address"><input type="text" name="san-address" id="san-address" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Address" /></span>
+                                        <span class="wpcf7-form-control-wrap address"><input type="text" name="san-address" id="san-address" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Address"  required/></span>
                                     </p>
                                     <p class="form-row form-row-last">
                                         <label> Address Line 2 </label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap address-line-2"><input type="text" name="san-address-line-2" id="san-address-line-2" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Address Line 2" /></span>
+                                        <span class="wpcf7-form-control-wrap address-line-2"><input type="text" name="san-address-line-2" id="san-address-line-2" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Address Line 2"  required/></span>
                                     </p>
                                     <p class="form-row form-row-first">
                                         <label> City<span class="required">*</span> </label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap city"><input type="text" name="san-city" id="san-city" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="City" /></span>
+                                        <span class="wpcf7-form-control-wrap city"><input type="text" name="san-city" id="san-city" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="City"  required/></span>
                                     </p>
                                     <p class="form-row form-row-last">
                                         <label> State<span class="required">*</span> </label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap menu-739"><select name="san-menu-state" id="san-menu-state" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District Of Columbia">District Of Columbia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option><option value="Armed Forces (AA)">Armed Forces (AA)</option><option value="Armed Forces (AE)">Armed Forces (AE)</option><option value="Armed Forces (AP)">Armed Forces (AP)</option></select></span>
+                                        <span class="wpcf7-form-control-wrap menu-739"><select name="san-menu-state" id="san-menu-state" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required><option value="Alabama">Alabama</option><option value="Alaska">Alaska</option><option value="Arizona">Arizona</option><option value="Arkansas">Arkansas</option><option value="California">California</option><option value="Colorado">Colorado</option><option value="Connecticut">Connecticut</option><option value="Delaware">Delaware</option><option value="District Of Columbia">District Of Columbia</option><option value="Florida">Florida</option><option value="Georgia">Georgia</option><option value="Hawaii">Hawaii</option><option value="Idaho">Idaho</option><option value="Illinois">Illinois</option><option value="Indiana">Indiana</option><option value="Iowa">Iowa</option><option value="Kansas">Kansas</option><option value="Kentucky">Kentucky</option><option value="Louisiana">Louisiana</option><option value="Maine">Maine</option><option value="Maryland">Maryland</option><option value="Massachusetts">Massachusetts</option><option value="Michigan">Michigan</option><option value="Minnesota">Minnesota</option><option value="Mississippi">Mississippi</option><option value="Missouri">Missouri</option><option value="Montana">Montana</option><option value="Nebraska">Nebraska</option><option value="Nevada">Nevada</option><option value="New Hampshire">New Hampshire</option><option value="New Jersey">New Jersey</option><option value="New Mexico">New Mexico</option><option value="New York">New York</option><option value="North Carolina">North Carolina</option><option value="North Dakota">North Dakota</option><option value="Ohio">Ohio</option><option value="Oklahoma">Oklahoma</option><option value="Oregon">Oregon</option><option value="Pennsylvania">Pennsylvania</option><option value="Rhode Island">Rhode Island</option><option value="South Carolina">South Carolina</option><option value="South Dakota">South Dakota</option><option value="Tennessee">Tennessee</option><option value="Texas">Texas</option><option value="Utah">Utah</option><option value="Vermont">Vermont</option><option value="Virginia">Virginia</option><option value="Washington">Washington</option><option value="West Virginia">West Virginia</option><option value="Wisconsin">Wisconsin</option><option value="Wyoming">Wyoming</option><option value="Armed Forces (AA)">Armed Forces (AA)</option><option value="Armed Forces (AE)">Armed Forces (AE)</option><option value="Armed Forces (AP)">Armed Forces (AP)</option></select></span>
                                     </p>
                                     <p class="form-row form-row-first address-field validate-required address-field validate-required" id="billing_country_field">
                                         <label class="">Country</label><strong>United States (US)</strong>
                                         <br />
-                                        <input type="hidden" name="san-billing_country" id="san-billing_country" value="US" autocomplete="country" class="country_to_state">
+                                        <input type="hidden" name="san-billing_country" id="san-billing_country" value="US" autocomplete="country" class="country_to_state" required>
                                     </p>
                                     <p class="form-row form-row-last">
                                         <label> Zip<span class="required">*</span></label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap number-744"><input type="number" name="san-number-744" id="san-number-744" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number" aria-required="true" aria-invalid="false" placeholder="Zip" /></span>
+                                        <span class="wpcf7-form-control-wrap number-744"><input type="number" name="san-number-744" id="san-number-744" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number" aria-required="true" aria-invalid="false" placeholder="Zip"  required/></span>
                                     </p>
                                     <p class="form-row form-row-first">
                                         <label> Phone<span class="required">*</span></label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap number-13"><input type="number" name="san-number-13" id="san-number-13" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number" aria-required="true" aria-invalid="false" placeholder="Phone" /></span>
+                                        <span class="wpcf7-form-control-wrap number-13"><input type="number" name="san-number-13" id="san-number-13" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number" aria-required="true" aria-invalid="false" placeholder="Phone"  required/></span>
                                     </p>
                                     <p class="form-row form-row-last">
                                         <label> Select size<span class="required">*</span> </label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap menu-739"><select name="san-menu-739" id="san-menu-739" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false"><option value="120">120</option><option value="250">250</option><option value="480">480</option></select></span>
+                                        <span class="wpcf7-form-control-wrap menu-739"><select name="san-menu-739" id="san-menu-739" class="wpcf7-form-control wpcf7-select wpcf7-validates-as-required" aria-required="true" aria-invalid="false" required><option value="120">120</option><option value="250">250</option><option value="480">480</option></select></span>
                                     </p>                                    
                                     <p style="clear:both;" class="woocommerce-FormRow form-row">
                                         <label> Message <span class="required">*</span></label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap textarea-887"><textarea name="san-textarea-887" id="san-textarea-887" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message"></textarea></span>
+                                        <span class="wpcf7-form-control-wrap textarea-887"><textarea name="san-textarea-887" id="san-textarea-887" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Message" required></textarea></span>
                                     </p>
                                     <p style="clear:both;" class="woocommerce-FormRow form-row">
-                                        <button type="submit" id="submit" value="Send to Pharmacist" class="wpcf7-form-control wpcf7-submit" />Send to Pharmacist</button>
+                                        <button type="submit" id="submit" value="Send to Pharmacist" class="wpcf7-form-control wpcf7-submit" style="color: #fff;" />Send to Pharmacist</button>
+                                        <style type="text/css">
+                                          #successmessage{
+                                            display: none;
+                                            text-align: center;
+                                            color: #040404;
+                                        }
+                                        </style>
+
+                                      <h4 id="successmessage">Thank you for your enquiry</h4>
                                     </p>
                                     <div class="wpcf7-response-output wpcf7-display-none"></div>
                                 </form>
+
+                                <h3 style="text-align: left;margin-bottom:30px;">** Please call us at 214-797-7172 for larger orders and we will ship to you next day.</h3>
                             </div>
                         </div>
                     </div>
@@ -641,7 +652,7 @@ $(document).ready(function() {
       event.preventDefault();
       var formdata = $('#san-form').serialize();
 
-      alert(formdata);
+      // alert(formdata);
       if ($('#san-last-name').val() != "" && $('#san-your-name').val() != "" && $('#san-address').val() != "" && $('#san-address-line-2').val() != "" && $('#san-city').val() != "" && $('#san-menu-state').val() != "" && $('#san-billing_country').val() != "" && $('#san-number-744').val() != "" && $('#san-number-13').val() != "" && $('#san-menu-739').val() != "" && $('#san-textarea-887').val() != "") {
             
              $.ajax({
