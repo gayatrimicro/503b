@@ -1024,7 +1024,7 @@ img {
 
 
             <div class="container-fluid padding-top">
-               <a href="sanitizer/#shop-form" class="image-links">
+               <a href="sanitizer/" class="image-links">
                <div class="image-holder-new">
                   
                   <img src="assets/images/sanitizer.jpg" class="img-fluid custom-image-image"/>
