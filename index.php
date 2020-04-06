@@ -237,7 +237,7 @@ $now = time(); ?>
              }
              .centered {
                           position:absolute;
-                          top: 50%;
+                          top: 40%;
                           left: 50%;
                           transform: translate(-50%, -40%)!important;
                           text-align: center;
@@ -470,6 +470,7 @@ img {
     color: #fff !important;
     font-size: 35px !important;
     font-weight: bold !important;
+    width: 100% !important;
 }
 .centered {
                           position:absolute;
@@ -572,26 +573,29 @@ img {
                           text-align: center;
                        }
 
-.custom-image-image {
-    width: 100%;
-    height:200px;
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    min-height: 1px;
-    max-width: 100%;
-}
+  .custom-image-image {
+      width: 100%;
+      height:200px;
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      min-height: 1px;
+      max-width: 100%;
+  }
 
-.span-class{
+  .span-class{
 
-  height:auto;
-}
+    height:auto;
+  }
 
-.span-new{
+  .span-new{
 
-  height:auto;
-}
+    height:auto;
+  }
+  .san-full-width{
+    width:100% !important;
+  }
 }
          </style>
          <script>
@@ -670,7 +674,7 @@ img {
                  
                                        <div class="centered pad-mob">
 
-                                        <h1 class="main_section_title shop" lang="en" style="width:100% !important;font-size: 56px;font-family: 'Montserrat',sans-serif !important;padding: 0px 20px;">Compounding Hand Sanitizer
+                                        <h1 class="main_section_title shop san-full-width" lang="en" style="font-size: 56px;font-family: 'Montserrat',sans-serif !important;padding: 0px 20px;">Compounding Hand Sanitizer
                                         </h1>
                                         <br>
                                         <h3 class="main_section_title" style="color: #fff;font-family: 'Montserrat',sans-serif !important;padding: 0px 40px;" lang="en">On March 14, 2020, the U.S. Food and Drug Administration (FDA) announced that it will not take action against pharmacies that provide compounded alcohol-based hand sanitizer products during the coronavirus pandemic if the conditions of the guidance document are met.View the complete Guidance for Industry below. </h3>
