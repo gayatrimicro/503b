@@ -475,7 +475,7 @@ img {
 .centered {
                           position:absolute;
                           top:50%;
-                         
+                          width: 95%;
                           left: 50%;
                           transform: translate(-50%, -50%)!important;
                           text-align: center;
@@ -672,18 +672,17 @@ img {
                                        
 
                  
-                                       <div class="centered pad-mob">
+                                       <div class="centered">
 
-                                        <h1 class="main_section_title shop san-full-width" lang="en" style="font-size: 56px;font-family: 'Montserrat',sans-serif !important;padding: 0px 20px;">Compounding Hand Sanitizer
+                                        <h1 class="main_section_title shop san-full-width" lang="en" style="font-size: 56px;font-family: 'Montserrat',sans-serif !important;padding: 0px 0px;">Compounding Hand Sanitizer
                                         </h1>
                                         <br>
-                                        <h3 class="main_section_title" style="color: #fff;font-family: 'Montserrat',sans-serif !important;padding: 0px 40px;" lang="en">On March 14, 2020, the U.S. Food and Drug Administration (FDA) announced that it will not take action against pharmacies that provide compounded alcohol-based hand sanitizer products during the coronavirus pandemic if the conditions of the guidance document are met.View the complete Guidance for Industry below. </h3>
-
-                                        <a href="https://www.fda.gov/media/136289/download" target="_blank" style="text-decoration: underline;padding: 0px 20px;">
-                                          <h3 class="main_section_title" style="color: #fff;font-family: 'Montserrat',sans-serif !important;padding: 0px 20px;" lang="en">https://www.fda.gov/media/136289/download</h3>
+                                        <h3 class="main_section_title" lang="en"><span style="color: #fff;font-family: 'Montserrat',sans-serif !important;padding: 0px 0px;">On March 14, 2020, the U.S. Food and Drug Administration (FDA) announced that it will not take action against pharmacies that provide compounded alcohol-based hand sanitizer products during the coronavirus pandemic if the conditions of the guidance document are met. </span><a href="https://www.fda.gov/media/136289/download" target="_blank" style="text-decoration: underline;padding: 0px;font-family: 'Montserrat',sans-serif !important;color: #fff !important;">
+                                         View the complete Guidance.
                                         </a>
+                                        </h3>
                                         <br>
-                                        <a href="sanitizer/" style="padding: 0px 20px;color: #fff;font-size: 18px;text-decoration: underline;">To order please click here. </a>
+                                        <a href="sanitizer/" style="padding: 0px 0px;color: #000;font-size: 18px;text-decoration: underline;"><button style="background-color: #fff;">ORDER NOW</button></a>
                                         
                                         </div>
                   
