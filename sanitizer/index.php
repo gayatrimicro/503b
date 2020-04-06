@@ -560,7 +560,7 @@ $now = time(); ?>
                             <h3 style="text-align: center;margin-bottom:30px;"> Please fill the contact info and we will contact you for payment before shipping.</h3>
                             <div role="form" class="wpcf7" lang="en-US" dir="ltr">
                                 <div class="screen-reader-response"></div>
-                                <form id="san-form" method="post" class="wpcf7-form" novalidate="novalidate">
+                                <form id="san-form" method="post">
                                     <div style="display: none;">
                                         <input type="hidden" name="_wpcf7" value="908" />
                                         <input type="hidden" name="_wpcf7_version" value="5.1.1" />
@@ -599,12 +599,12 @@ $now = time(); ?>
                                     <p class="form-row form-row-last">
                                         <label> Zip Code<span class="required">*</span></label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap number-744"><input type="number" name="san-number-744" id="san-number-744" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number" aria-required="true" aria-invalid="false" placeholder="Zip"  required/></span>
+                                        <span class="wpcf7-form-control-wrap number-744"><input type="text" name="san-number-744" id="san-number-744" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number"  pattern="[0-9]{5}" maxlength="5" aria-required="true" aria-invalid="false" placeholder="Zip"  required/></span>
                                     </p>
                                     <p class="form-row form-row-first">
                                         <label> Phone<span class="required">*</span></label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap number-13"><input type="number" name="san-number-13" id="san-number-13" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number" aria-required="true" aria-invalid="false" placeholder="Phone" pattern="[789][0-9]{9}" maxlength="10" required/></span>
+                                        <span class="wpcf7-form-control-wra number-1"><input type="text" name="san-number-13" id="san-number-13" value="" class="" aria-required="true" aria-invalid="false" placeholder="Phone" pattern="[789][0-9]{9}" title="Enter valid phone number." maxlength="10" required/></span>
                                     </p>
                                     <p class="form-row form-row-last">
                                         <label> Select size<span class="required">*</span> </label>
@@ -619,7 +619,7 @@ $now = time(); ?>
                                         </span>
                                     </p>
                                     <p style="clear:both;" class="woocommerce-FormRow form-row">
-                                        <button type="submit" id="submit" value="Send to Pharmacist" class="wpcf7-form-control wpcf7-submit" style="color: #fff;" />Send to Pharmacist</button>
+                                        <button type="submit" id="send" name="send" value="Send to Pharmacist" class="wpcf7-form-control wpcf7-submit" style="color: #fff;" />Send to Pharmacist</button>
                                         <style type="text/css">
                                           #successmessage{
                                             display: none;
@@ -664,12 +664,15 @@ $(document).ready(function() {
         
     }
              else{
-              alert("All fields are mandatory");
+              // alert("All fields are mandatory");
                   }
     });
 });
 
 </script>
+
+
+
                 <div class="row align-middle" id="row-1743408234">
                     <div class="col img_mob medium-4 small-12 large-4">
                         <div class="col-inner text-left">
@@ -1452,6 +1455,8 @@ $(document).ready(function() {
          /* ]]> */
       </script>
       <script type='text/javascript' src='../assets/js/password-strength-meter.min9d52.js?ver=3.5.1'></script>
+      
+
 
 </body>
 
