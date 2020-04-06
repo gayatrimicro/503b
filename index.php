@@ -657,7 +657,6 @@ img {
                                         </a>
                                         <br>
                                         <a href="sanitizer/" style="color: #fff;font-size: 18px;text-decoration: underline;">To order please click here. </a>
-                                         <button type="submit" class="dgwt-wcas-search-submit">Search</button>
                                         
                                         </div>
                   
