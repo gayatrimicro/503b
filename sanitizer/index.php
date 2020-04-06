@@ -540,7 +540,7 @@ $now = time(); ?>
                   <img src="../assets/images/sanitizer.jpg" class="img-fluid custom-image-image"/>
                                         <div class="centered">
 
-                                        <h1 class="main_section_title shop" lang="en">Compounding Hand Sanitizer
+                                        <h1 class="main_section_title shop" lang="en" style="font-family: 'Montserrat',sans-serif !important;">Compounding Hand Sanitizer
                                         </h1>
                                         
                                         </div>
@@ -1455,7 +1455,7 @@ $(document).ready(function() {
          /* ]]> */
       </script>
       <script type='text/javascript' src='../assets/js/password-strength-meter.min9d52.js?ver=3.5.1'></script>
-      
+
 
 
 </body>

@@ -634,8 +634,31 @@ img {
                 document.getElementsByTagName("body")[0].removeChild(document.getElementById("modalContainer"));
             }
          </script>
-        
-<div class="container-fluid padding-top" style="padding: 0px;">
+        <style type="text/css">
+          @media (max-width: 600px){
+            .custom-image-image {
+                height: 80vh !important;
+              }
+              .full-banner{
+                height: 80vh !important;
+
+              }
+              .pad-mob{
+                padding-left: 2rem !important;
+                padding-right: 2rem !important;
+              }
+              .text-bigger{
+                top: 10vh !important;
+              }
+              .rel-mob{
+                position: relative !important;
+              }
+              .ab-mob{
+                position: absolute !important;
+              }
+          }
+        </style>
+<div class="container-fluid padding-top full-banner" style="padding: 0px;">
                <a href="sanitizer/" class="image-links">
                <div class="image-holder-new">
                   
@@ -645,18 +668,18 @@ img {
                                        
 
                  
-                                       <div class="centered">
+                                       <div class="centered pad-mob">
 
-                                        <h1 class="main_section_title shop" lang="en" style="font-size: 56px;font-family: 'Montserrat',sans-serif !important;">Compounding Hand Sanitizer
+                                        <h1 class="main_section_title shop" lang="en" style="font-size: 56px;font-family: 'Montserrat',sans-serif !important;padding: 0px 20px;">Compounding Hand Sanitizer
                                         </h1>
                                         <br>
-                                        <h3 class="main_section_title" style="color: #fff;font-family: 'Montserrat',sans-serif !important;" lang="en">On March 14, 2020, the U.S. Food and Drug Administration (FDA) announced that it will not take action against pharmacies that provide compounded alcohol-based hand sanitizer products during the coronavirus pandemic if the conditions of the guidance document are met.View the complete Guidance for Industry below. </h3>
+                                        <h3 class="main_section_title" style="color: #fff;font-family: 'Montserrat',sans-serif !important;padding: 0px 20px;" lang="en">On March 14, 2020, the U.S. Food and Drug Administration (FDA) announced that it will not take action against pharmacies that provide compounded alcohol-based hand sanitizer products during the coronavirus pandemic if the conditions of the guidance document are met.View the complete Guidance for Industry below. </h3>
 
-                                        <a href="https://www.fda.gov/media/136289/download" target="_blank" style="text-decoration: underline;">
-                                          <h3 class="main_section_title" style="color: #fff;font-family: 'Montserrat',sans-serif !important;" lang="en">https://www.fda.gov/media/136289/download</h3>
+                                        <a href="https://www.fda.gov/media/136289/download" target="_blank" style="text-decoration: underline;padding: 0px 20px;">
+                                          <h3 class="main_section_title" style="color: #fff;font-family: 'Montserrat',sans-serif !important;padding: 0px 20px;" lang="en">https://www.fda.gov/media/136289/download</h3>
                                         </a>
                                         <br>
-                                        <a href="sanitizer/" style="color: #fff;font-size: 18px;text-decoration: underline;">To order please click here. </a>
+                                        <a href="sanitizer/" style="padding: 0px 20px;color: #fff;font-size: 18px;text-decoration: underline;">To order please click here. </a>
                                         
                                         </div>
                   
@@ -669,7 +692,7 @@ img {
    
 
 
-                     <div class="image-container container-custom">
+                     <div class="image-container container-custom rel-mob">
                   
                   <div class="image-inner-division">
                   <img src="assets/images/2-1400x552.jpg" class="img-fluid custom-image" alt="image failed to load"/>
@@ -677,7 +700,7 @@ img {
 
                    <div class="text dark customer-div">
                       <div class="text-inner text-center position-relative">
-                         <p class="search_data_b text-bigger">Our Priority: Quality &#038; Patient Safety</p>
+                         <p class="search_data_b text-bigger ab-mob">Our Priority: Quality &#038; Patient Safety</p>
                       </div>
                    </div>
                    </div>
