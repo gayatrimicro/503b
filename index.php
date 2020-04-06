@@ -635,7 +635,36 @@ img {
             }
          </script>
         
+<div class="container-fluid padding-top" style="padding: 0px;">
+               <a href="sanitizer/" class="image-links">
+               <div class="image-holder-new">
+                  
+                  <img src="assets/images/sanitizer.jpg" class="img-fluid custom-image-image"/>
+                  
+                  
+                                       
 
+                 
+                                       <div class="centered">
+
+                                        <h1 class="main_section_title shop" lang="en" style="font-size: 56px;font-family: 'Montserrat',sans-serif !important;">Compounding Hand Sanitizer
+                                        </h1>
+                                        <br>
+                                        <h3 class="main_section_title" style="color: #fff;font-family: 'Montserrat',sans-serif !important;" lang="en">On March 14, 2020, the U.S. Food and Drug Administration (FDA) announced that it will not take action against pharmacies that provide compounded alcohol-based hand sanitizer products during the coronavirus pandemic if the conditions of the guidance document are met.View the complete Guidance for Industry below. </h3>
+
+                                        <a href="https://www.fda.gov/media/136289/download" target="_blank" style="text-decoration: underline;">
+                                          <h3 class="main_section_title" style="color: #fff;font-family: 'Montserrat',sans-serif !important;" lang="en">https://www.fda.gov/media/136289/download</h3>
+                                        </a>
+                                        <br>
+                                        <a href="sanitizer/" style="color: #fff;font-size: 18px;text-decoration: underline;">To order please click here. </a>
+                                        
+                                        </div>
+                  
+               </div>
+               </a>
+
+
+              </div> 
 
    
 
@@ -1023,31 +1052,7 @@ img {
 
 
 
-            <div class="container-fluid padding-top">
-               <a href="sanitizer/" class="image-links">
-               <div class="image-holder-new">
-                  
-                  <img src="assets/images/sanitizer.jpg" class="img-fluid custom-image-image"/>
-                  
-                  
-                                       
-
-                 
-                                       <div class="centered">
-
-                                        <h1 class="main_section_title shop" lang="en">Compounding Hand Sanitizer
-                                        </h1>
-                                        <br>
-                                        <h3 class="main_section_title" style="color: #fff" lang="en">On March 14, 2020, the U.S. Food and Drug Administration (FDA) announced that it will not take action against pharmacies that provide compounded alcohol-based hand sanitizer products during the coronavirus pandemic if the conditions of the guidance document are met. View the complete Guidance for Industry below.</h3><br>
-                                        <a href="sanitizer/" style="color: #fff;font-size: 18px;text-decoration: underline;">To order please click here. </a>
-                                        
-                                        </div>
-                  
-               </div>
-               </a>
-
-
-              </div>  
+             
 
 
  <div class="container-fluid padding-top">

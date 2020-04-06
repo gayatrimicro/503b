@@ -11,7 +11,7 @@
 	 $zip = $_POST["san-number-744"];
 	 $phone = $_POST["san-number-13"];
  	 $size  = $_POST["san-menu-739"];
- 	 $msg= $_POST["san-textarea-887"];
+ 	 $quant= $_POST["san-textarea-887"];
 	 // $location = $_POST["location"];
 
 	 $subject ="Hand Sanitizer Request By " . $fname . "" . $lname;
@@ -63,9 +63,9 @@
 	                 </tr>
 
 	                  <tr>
-	                   <td align='left' width='35%'><strong>Message :</strong></td>
+	                   <td align='left' width='35%'><strong>Quantity :</strong></td>
 	                   <td align='left' width='60%'>
-	                   ".  $msg ."</td>
+	                   ".  $quant ."</td>
 	                 </tr>
 
 	               </table>";  

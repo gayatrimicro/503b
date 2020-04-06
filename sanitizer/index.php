@@ -604,7 +604,7 @@ $now = time(); ?>
                                     <p class="form-row form-row-first">
                                         <label> Phone<span class="required">*</span></label>
                                         <br />
-                                        <span class="wpcf7-form-control-wrap number-13"><input type="number" name="san-number-13" id="san-number-13" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number" aria-required="true" aria-invalid="false" placeholder="Phone"  required/></span>
+                                        <span class="wpcf7-form-control-wrap number-13"><input type="number" name="san-number-13" id="san-number-13" value="" class="wpcf7-form-control wpcf7-number wpcf7-validates-as-required wpcf7-validates-as-number" aria-required="true" aria-invalid="false" placeholder="Phone" pattern="[789][0-9]{9}" maxlength="10" required/></span>
                                     </p>
                                     <p class="form-row form-row-last">
                                         <label> Select size<span class="required">*</span> </label>
