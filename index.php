@@ -660,31 +660,50 @@ img {
               .ab-mob{
                 position: absolute !important;
               }
+              .centered-new {
+                          position:absolute;
+                          top:50%;
+                          left: 50%;
+                          transform: translate(-50%, -50%)!important;
+                          text-align: center;
+                          width: 90%;
+                       }
+          }
+
+          @media (min-width: 800px){
+            .box-height{
+              height: 500px !important;
+            }
+            .centered-new {
+                          position:absolute;
+                          top: 40%;
+                          left: 5%;
+                          transform: translate(0%, -40%)!important;
+                          text-align: center;
+                          width: 570px;
+                       }
+
           }
         </style>
-<div class="container-fluid padding-top full-banner" style="padding: 0px;">
+<div class="container-fluid padding-top full-banner box-height" style="padding: 0px;">
                <a href="sanitizer/" class="image-links">
-               <div class="image-holder-new">
+               <div class="image-holder-new box-height">
                   
-                  <img src="assets/images/sanitizer.jpg" class="img-fluid custom-image-image"/>
+                  <img src="assets/images/sanitizer-home.jpg" class="img-fluid custom-image-image"/>
                   
-                  
-                                       
+                  <div class="centered-new">
 
-                 
-                                       <div class="centered">
-
-                                        <h1 class="main_section_title shop san-full-width" lang="en" style="font-size: 56px;font-family: 'Montserrat',sans-serif !important;padding: 0px 0px;">Compounding Hand Sanitizer
-                                        </h1>
-                                        <br>
-                                        <h3 class="main_section_title" lang="en"><span style="color: #fff;font-family: 'Montserrat',sans-serif !important;padding: 0px 0px;">On March 14, 2020, the U.S. Food and Drug Administration (FDA) announced that it will not take action against pharmacies that provide compounded alcohol-based hand sanitizer products during the coronavirus pandemic if the conditions of the guidance document are met. </span><a href="https://www.fda.gov/media/136289/download" target="_blank" style="text-decoration: underline;padding: 0px;font-family: 'Montserrat',sans-serif !important;color: #fff !important;">
-                                         View the complete Guidance.
-                                        </a>
-                                        </h3>
-                                        <br>
-                                        <a href="sanitizer/" style="padding: 0px 0px;color: #000;font-size: 18px;text-decoration: underline;"><button style="background-color: #fff;">ORDER NOW</button></a>
-                                        
-                                        </div>
+                  <h2 class="main_section_title shop san-full-width" lang="en" style="font-size: 60px !important;font-family: 'Montserrat',sans-serif !important;padding: 0px 0px;letter-spacing: 4px;"><strong>Compounding <br>Hand Sanitizer</strong>
+                  </h2>
+                  <br>
+                  <h4 class="main_section_title" lang="en" style="text-align: left !important;"><span style="color: #fff;font-family: 'Montserrat',sans-serif !important;padding: 0px 0px;">On March 14, 2020, the U.S. Food and Drug Administration (FDA) announced that it will not take action against pharmacies that provide compounded alcohol-based hand sanitizer products during the coronavirus pandemic if the conditions of the guidance document are met. </span><a href="https://www.fda.gov/media/136289/download" target="_blank" style="text-decoration: underline;padding: 0px;font-family: 'Montserrat',sans-serif !important;color: #fff !important;">
+                   View the complete Guidance.
+                  </a>
+                  </h4>
+                  <br>
+                  <a href="sanitizer/" style="padding: 0px 0px;color: #000;font-size: 18px;text-decoration: underline;"><button style="background-color: #fff;float: left;">ORDER NOW</button></a>
+                  
+                  </div>
                   
                </div>
                </a>
