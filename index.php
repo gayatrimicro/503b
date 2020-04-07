@@ -639,7 +639,48 @@ img {
             }
          </script>
         <style type="text/css">
-          @media (max-width: 600px){
+
+           .align{
+              text-align: left !important;
+             }
+             .title-heading{
+              font-size: 40px !important;
+              font-family: 'Montserrat',sans-serif !important;
+              padding: 0px 0px !important;
+              letter-spacing: 4px !important;
+             }
+             .order-btn{
+              background-color: #fff !important;
+              float: left !important;
+             }
+
+
+
+
+          
+          @media (min-width: 800px){
+            .box-height{
+              height: 500px !important;
+            }
+            .desk{
+              display: block;
+            }
+            .mob{
+              display: none;
+            }
+            .centered-new {
+                          position:absolute;
+                          top: 40%;
+                          left: 5%;
+                          transform: translate(0%, -40%)!important;
+                          text-align: center;
+                          width: 475px;
+                       }
+                      
+
+          }
+
+           @media (max-width: 800px){
             .custom-image-image {
                 height: 80vh !important;
               }
@@ -661,47 +702,57 @@ img {
                 position: absolute !important;
               }
               .centered-new {
-                          position:absolute;
-                          top:50%;
-                          left: 50%;
-                          transform: translate(-50%, -50%)!important;
-                          text-align: center;
-                          width: 90%;
-                       }
-          }
-
-          @media (min-width: 800px){
-            .box-height{
-              height: 500px !important;
-            }
-            .centered-new {
-                          position:absolute;
-                          top: 40%;
-                          left: 5%;
-                          transform: translate(0%, -40%)!important;
-                          text-align: center;
-                          width: 475px;
-                       }
-
-          }
+                  position:absolute;
+                  top:50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%)!important;
+                  text-align: center;
+                  width: 90%;
+               }
+               .desk{
+                  display: none;
+                }
+                .mob{
+                  display: block;
+                }
+                .align{
+                  text-align: center !important;
+                 }
+                 .box-height{
+                    height: 100% !important;
+                  }
+                .title-heading{
+                  font-size: 25px !important;
+                  font-family: 'Montserrat',sans-serif !important;
+                  padding: 0px 0px !important;
+                  letter-spacing: 4px !important;
+                 }
+                 .order-btn{
+                  background-color: #fff !important;
+                  float: none !important;
+                }
+              }
+                 
         </style>
 <div class="container-fluid padding-top full-banner box-height" style="padding: 0px;">
                <a href="sanitizer/" class="image-links">
                <div class="image-holder-new box-height">
                   
-                  <img src="assets/images/sanitizer-home.jpg" class="img-fluid custom-image-image"/>
+                  <img src="assets/images/sanitizer-home.jpg" class="img-fluid custom-image-image desk"/>
+                  <img src="assets/images/sanitizer.jpg" class="img-fluid custom-image-image mob"/>
+
                   
                   <div class="centered-new">
 
-                  <h2 class="main_section_title shop san-full-width" lang="en" style="font-size: 40px !important;font-family: 'Montserrat',sans-serif !important;padding: 0px 0px;letter-spacing: 4px;"><strong>Compounding <br>Hand Sanitizer</strong>
+                  <h2 class="main_section_title shop san-full-width title-heading" lang="en"><strong>Compounding <br class="desk">Hand Sanitizer</strong>
                   </h2>
                   <br>
-                  <h4 class="main_section_title" lang="en" style="text-align: left !important;"><span style="color: #fff;font-family: 'Montserrat',sans-serif !important;padding: 0px 0px;">On March 14, 2020, the U.S. Food and Drug Administration (FDA) announced that it will not take action against pharmacies that provide compounded alcohol-based hand sanitizer products during the coronavirus pandemic if the conditions of the guidance document are met. </span><a href="https://www.fda.gov/media/136289/download" target="_blank" style="text-decoration: underline;padding: 0px;font-family: 'Montserrat',sans-serif !important;color: #fff !important;">
+                  <h4 class="main_section_title align" lang="en"><span style="color: #fff;font-family: 'Montserrat',sans-serif !important;padding: 0px 0px;">On March 14, 2020, the U.S. Food and Drug Administration (FDA) announced that it will not take action against pharmacies that provide compounded alcohol-based hand sanitizer products during the coronavirus pandemic if the conditions of the guidance document are met. </span><a href="https://www.fda.gov/media/136289/download" target="_blank" style="text-decoration: underline;padding: 0px;font-family: 'Montserrat',sans-serif !important;color: #fff !important;">
                    View the complete Guidance.
                   </a>
                   </h4>
                   <br>
-                  <a href="sanitizer/" style="padding: 0px 0px;color: #000;font-size: 18px;text-decoration: underline;"><button style="background-color: #fff;float: left;">ORDER NOW</button></a>
+                  <a href="sanitizer/" style="padding: 0px 0px;color: #000;font-size: 18px;text-decoration: underline;"><button class="order-btn">ORDER NOW</button></a>
                   
                   </div>
                   
