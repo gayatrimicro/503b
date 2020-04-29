@@ -735,7 +735,7 @@ img {
               }
                  
         </style>
-<div class="container-fluid padding-top full-banner box-height" style="padding: 0px;">
+<!-- <div class="container-fluid padding-top full-banner box-height" style="padding: 0px;">
                <a href="sanitizer/" class="image-links">
                <div class="image-holder-new box-height">
                   
@@ -761,7 +761,7 @@ img {
                </a>
 
 
-              </div> 
+              </div>  -->
 
    
 
