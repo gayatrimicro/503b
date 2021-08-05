@@ -1373,12 +1373,12 @@ tr:nth-child(even){background-color: #fff}
 
     $("#nshipadd").on('change',function(){
         if($("#nshipadd").prop('checked')==true){
-            document.getElementById("noshipto").disabled = true;
+            document.getElementById("noshipto").readOnly = true;
             var getbillval=document.getElementById('nobillto').value;
             document.getElementById("noshipto").value=getbillval;
         }
         else{
-            document.getElementById("noshipto").disabled = false;
+            document.getElementById("noshipto").readOnly = false;
             document.getElementById("noshipto").value='';
         }
     });
