@@ -283,6 +283,12 @@ tr:nth-child(even){background-color: #fff}
 .rw{
     margin-bottom: 0px;
 }
+.pad_l5{
+        padding-left: 0px !important;
+    }
+    .pad_r5{
+        padding-right: 0px !important;
+}
 }
         </style>
 
