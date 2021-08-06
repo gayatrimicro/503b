@@ -627,7 +627,7 @@ tr:nth-child(even){background-color: #fff}
                             <div class="rw">
                                 <button type="submit" class="obtn">SUBMIT</button>
                                 <br><br>
-                                <p style="color:green;display: none;" id="sccmsg">Thank You for your order. We will contact you soon...</p>
+                                <p style="color:green;display: none;" id="sccmsg">Thank you for your order. We will contact you soon...</p>
                             </div>
                         </form>
                 </div>
@@ -1410,7 +1410,7 @@ tr:nth-child(even){background-color: #fff}
                 success:function(result){
                     $('#nordfrm')[0].reset();
                     $('#sccmsg').fadeIn();
-                    setTimeout(function(){ $('#sccmsg').hide(); }, 5000);
+                    setTimeout(function(){ $('#sccmsg').hide(); }, 8000);
                 }
         });
 });
