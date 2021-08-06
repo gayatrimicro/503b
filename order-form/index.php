@@ -554,8 +554,8 @@ tr:nth-child(even){background-color: #fff}
                                     </tr>
                                     <tr>
                                         <td>Calcium Gluconate SDV &nbsp;&nbsp;
-                                            <input type="checkbox" name="ncg10" value="10ml"><span>10ml</span>&nbsp;&nbsp;
-                                            <input type="checkbox" name="ncg50" value="50ml"><span>50ml</span>
+                                            <input type="checkbox" name="ncg10" value="10ml"><span>10mL</span>&nbsp;&nbsp;
+                                            <input type="checkbox" name="ncg50" value="50ml"><span>50mL</span>
                                         </td>
                                         <td>10%</td>
                                         <td><input type="text" name="nq15"></td>
@@ -575,7 +575,7 @@ tr:nth-child(even){background-color: #fff}
                                     </tr>
                                     <tr>
                                         <td>Ondansetron HCl MDV  &nbsp;&nbsp;
-                                            <input type="checkbox" name="nohm2" value="2ml"><span>2ml</span>&nbsp;&nbsp;
+                                            <input type="checkbox" name="nohm2" value="2ml"><span>2mL</span>&nbsp;&nbsp;
                                             <input type="checkbox" name="nohm20" value="20ml"><span>20ml</span></td>
                                         <td>2 mg/mL</td>
                                         <td><input type="text" name="nq18"></td>
@@ -627,7 +627,7 @@ tr:nth-child(even){background-color: #fff}
                             <div class="rw">
                                 <button type="submit" class="obtn">SUBMIT</button>
                                 <br><br>
-                                <p style="color:green;display: none;" id="sccmsg">Thank You for your order. we will contact you soon...</p>
+                                <p style="color:green;display: none;" id="sccmsg">Thank You for your order. We will contact you soon...</p>
                             </div>
                         </form>
                 </div>
@@ -1410,7 +1410,7 @@ tr:nth-child(even){background-color: #fff}
                 success:function(result){
                     $('#nordfrm')[0].reset();
                     $('#sccmsg').fadeIn();
-                    setTimeout(function(){ $('#sccmsg').hide(); }, 3000);
+                    setTimeout(function(){ $('#sccmsg').hide(); }, 5000);
                 }
         });
 });
