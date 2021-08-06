@@ -60,7 +60,31 @@
  	$snp18  = $_POST["np18"];
  	$snohm2  = $_POST["nohm2"];
  	$snohm20  = $_POST["nohm20"];
- 	
+
+ 	$stb51  = $_POST["ordtbl51"];
+ 	$stb52  = $_POST["ordtbl52"];
+ 	$stb53  = $_POST["ordtbl53"];
+ 	$stb54  = $_POST["ordtbl54"];
+
+ 	$stb61  = $_POST["ordtbl61"];
+ 	$stb62  = $_POST["ordtbl62"];
+ 	$stb63  = $_POST["ordtbl63"];
+ 	$stb64  = $_POST["ordtbl64"];
+
+ 	$stb71  = $_POST["ordtbl71"];
+ 	$stb72  = $_POST["ordtbl72"];
+ 	$stb73  = $_POST["ordtbl73"];
+ 	$stb74  = $_POST["ordtbl74"];
+
+ 	$stb81  = $_POST["ordtbl81"];
+ 	$stb82  = $_POST["ordtbl82"];
+ 	$stb83  = $_POST["ordtbl83"];
+ 	$stb84  = $_POST["ordtbl84"];
+
+ 	$stb91  = $_POST["ordtbl91"];
+ 	$stb92  = $_POST["ordtbl92"];
+ 	$stb93  = $_POST["ordtbl93"];
+ 	$stb94  = $_POST["ordtbl94"]; 	
 
  	$snodby  = $_POST["nodby"];
  	$snodte  = $_POST["nodte"];
@@ -231,6 +255,36 @@
 	                   <td align='left' width='24%'>2 mg/mL</td>
 	                   <td align='left' width='24%'>".  $snq18 ."</td>
 	                   <td align='left' width='24%'>".  $snp18 ."</td>
+	                </tr>
+	                <tr>
+	                   <td align='left' width='24%'>".  $stb51 ."</td>
+	                   <td align='left' width='24%'>".  $stb52 ."</td>
+	                   <td align='left' width='24%'>".  $stb53 ."</td>
+	                   <td align='left' width='24%'>".  $stb54 ."</td>
+	                </tr>
+	                <tr>
+	                   <td align='left' width='24%'>".  $stb61 ."</td>
+	                   <td align='left' width='24%'>".  $stb62 ."</td>
+	                   <td align='left' width='24%'>".  $stb63 ."</td>
+	                   <td align='left' width='24%'>".  $stb64 ."</td>
+	                </tr>
+	                <tr>
+	                   <td align='left' width='24%'>".  $stb71 ."</td>
+	                   <td align='left' width='24%'>".  $stb72 ."</td>
+	                   <td align='left' width='24%'>".  $stb73 ."</td>
+	                   <td align='left' width='24%'>".  $stb74 ."</td>
+	                </tr>
+	                <tr>
+	                   <td align='left' width='24%'>".  $stb81 ."</td>
+	                   <td align='left' width='24%'>".  $stb82 ."</td>
+	                   <td align='left' width='24%'>".  $stb83 ."</td>
+	                   <td align='left' width='24%'>".  $stb84 ."</td>
+	                </tr>
+	                <tr>
+	                   <td align='left' width='24%'>".  $stb91 ."</td>
+	                   <td align='left' width='24%'>".  $stb92 ."</td>
+	                   <td align='left' width='24%'>".  $stb93 ."</td>
+	                   <td align='left' width='24%'>".  $stb94 ."</td>
 	                </tr>
 
 
