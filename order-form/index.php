@@ -576,7 +576,7 @@ tr:nth-child(even){background-color: #fff}
                                     <tr>
                                         <td>Ondansetron HCl MDV  &nbsp;&nbsp;
                                             <input type="checkbox" name="nohm2" value="2ml"><span>2mL</span>&nbsp;&nbsp;
-                                            <input type="checkbox" name="nohm20" value="20ml"><span>20ml</span></td>
+                                            <input type="checkbox" name="nohm20" value="20ml"><span>20mL</span></td>
                                         <td>2 mg/mL</td>
                                         <td><input type="text" name="nq18"></td>
                                         <td><input type="text" name="np18"></td>
