@@ -462,7 +462,7 @@ tr:nth-child(even){background-color: #fff}
                                         <textarea name="noshipto" id="noshipto" rows="5" required></textarea>
                                     </div>
                                     <label for="nshipdate">Shiping Date:</label>
-                                    <input type="text" name="nshipdate" id="nshipdate" placeholder="DD / MM / YYYY" required>  
+                                    <input type="date" name="nshipdate" id="nshipdate" placeholder="DD / MM / YYYY" required>  
                                 </div>
                             </div>
                             <br>
@@ -627,7 +627,7 @@ tr:nth-child(even){background-color: #fff}
                                 </div>
                                 <div class="col_6">
                                     <label for="nodte">DATE:</label>
-                                    <input type="text" name="nodte" id="nodte" placeholder="DD / MM / YYYY" required>
+                                    <input type="date" name="nodte" id="nodte" placeholder="DD / MM / YYYY" required>
                                 </div>
                             </div>
                             <div class="rw">
