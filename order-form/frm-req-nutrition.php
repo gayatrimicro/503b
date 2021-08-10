@@ -1,15 +1,5 @@
-<?php
-// var_dump($_FILES);
-// die();
-
-include "../mail/vendor/autoload.php";
-
-use PHPMailer\PHPMailer\PHPMailer;
-
-
-	/*---------*/
-
-	$sbillto = $_POST["nobillto"];
+<?php 
+ 	$sbillto = $_POST["nobillto"];
  	$sshipto  = $_POST["noshipto"];
  	$sshipdate = $_POST["nshipdate"];
 
@@ -99,13 +89,15 @@ use PHPMailer\PHPMailer\PHPMailer;
  	$snodby  = $_POST["nodby"];
  	$snodte  = $_POST["nodte"];
 
+	 $subject ="503b Order Details";
+	$headers  = 'MIME-Version: 1.0' . "\r\n";
+	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+	// $headers .= "From: <" . $semail .">" ."\r\n";
 	
-	$from_mail = "cvo@specialtycareclinics.com";
-	$doc_mail = "503b Order Details";
+	
+	   	$message= "<table border='0' cellpadding='4' cellspacing='4' width='100%'>
 
-	$message= "<table border='0' cellpadding='4' cellspacing='4' width='100%'>
-
-			   		<tr><td style='font-size:1.3em;' colspan='2'><strong>Order Details</strong></td></tr>
+	   			  <tr><td style='font-size:1.3em;' colspan='2'><strong>Order Details</strong></td></tr>
 	   			   	<tr>
 	                   <td align='left' width='25%'><strong>Bill To :</strong></td>
 	                   <td align='left' width='60%'>
@@ -294,78 +286,17 @@ use PHPMailer\PHPMailer\PHPMailer;
 	                   <td align='left' width='24%'>".  $stb94 ."</td>
 	                </tr>
 
-					 
-				   </table>";
 
-
-				   
-
-$mail = new PHPMailer(true);
-
-try {
-//From email address and name
-$mail->From = $from_mail;
-$mail->FromName = $doc_mail;
-
-//To address and name
-$mail->addAddress("fe@gmicro.us", "User Details");
-// $mail->addAddress("drgill@zenithdfw.com", "User Details");
-// $mail->addAddress("kalpesh@ibridgedigital.com", "User Details");
-// $mail->addAddress("content@gmicro.us", "User Details");
-// $mail->addAddress("drgill@zenithdfw.com", "User Details");
-// $mail->addAddress("kalpesh@ibridgedigital.com", "User Details");
-// $mail->addAddress("prashantg351996@gmail.com", "User Details");
-
-	// var_dump($_POST);
-	// exit();
-
-// $mail->isSMTP();                                         
-// $mail->Host       = 'smtp.gmail.com';                   
-// $mail->SMTPAuth   = true;                                   
-// $mail->Username   = 'business@ibridgedigital.com';                   
-// $mail->Password   = 'command55$';                            
-// $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; 
-// $mail->Port       = 587;
-// $mail->isHTML(true);
-
-// var_dump($_POST);
-	// exit();
-$mail->isSMTP();                                            // Send using SMTP
-$mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-//$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; 
-$mail->SMTPSecure = 'tls';         							// Enable TLS encryption; 
-$mail->Host       = 'smtp.gmail.com';                    // Set the SMTP server to send through
-$mail->Port       = 587;
-$mail->isHTML(true);
-$mail->CharSet = 'UTF-8';
-//$mail->Username   = 'business@ibridgedigital.com';                     // SMTP username
-//$mail->Password   = 'command55$';                               // SMTP password
-$mail->Username   = 'cvo@specialtycareclinics.com';                     // SMTP username
-$mail->Password   = 'JaiMata$di@';                               // SMTP password`PHPMailer::ENCRYPTION_SMTPS` encouraged
-$mail->setFrom('cvo@specialtycareclinics.com');
-
-$mail->Subject = "Appointment Form";
-$mail->Body = $message;
-
-	$mail->send();
-	 // $location = $_POST["location"];
-
-	 
-	
-	// $headers .= 'Cc: birthdayarchive@example.com' . "\r\n";
-	// $headers .= 'Bcc: birthdaycheck@example.com' . "\r\n";
-	
-		 
-				  
-		//if(mail("content@gmicro.us, fe@gmicro.us", $subject, $message, $headers))
-		echo "Your enquiry has been sent successfully..";
-	} catch (Exception $e) {
-		echo $e;
-		echo "Something went wrong";	 
+	                 
+	               </table>";  
+	              
+			if(mail("503b@aspcares.com", $subject, $message, $headers))
+	  	  {
+			echo "Your enquiry has been sent successfully"; 
 		}
-
-		
-		//$msg = "Your enquiry has been sent successfully.";
-		
+		else{
+			echo "error: Check the value";
+		}
+	  	
 	
 ?>
