@@ -107,31 +107,31 @@ use PHPMailer\PHPMailer\PHPMailer;
 
 			   		<tr><td style='font-size:1.3em;' colspan='2'><strong>Order Details</strong></td></tr>
 	   			   	<tr>
-	                   <td align='left' width='35%'><strong>Bill To :</strong></td>
+	                   <td align='left' width='25%'><strong>Bill To :</strong></td>
 	                   <td align='left' width='60%'>
 	                   ".  $sbillto ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='35%'><strong>Ship To :</strong></td>
+	                   <td align='left' width='25%'><strong>Ship To :</strong></td>
 	                   <td align='left' width='60%'>
 	                   ".  $sshipto ."</td>
 	                </tr>
 
 	   			   	<tr>
-	                   <td align='left' width='35%'><strong>Shipping Date :</strong></td>
+	                   <td align='left' width='25%'><strong>Shipping Date :</strong></td>
 	                   <td align='left' width='60%'>
 	                   ".  $sshipdate ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='35%'><strong>Order By :</strong></td>
+	                   <td align='left' width='25%'><strong>Order By :</strong></td>
 	                   <td align='left' width='60%'>
 	                   ".  $snodby ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='35%'><strong>Date :</strong></td>
+	                   <td align='left' width='25%'><strong>Date :</strong></td>
 	                   <td align='left' width='60%'>
 	                   ".  $snodte ."</td>
 	                </tr>
