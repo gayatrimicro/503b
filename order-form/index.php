@@ -9,7 +9,7 @@ $now = time(); ?>
  <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-      <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+      <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
       <link rel="profile" href="http://gmpg.org/xfn/11" />
       <link rel="pingback" href="" />
       <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -36,18 +36,18 @@ $now = time(); ?>
          padding: 0 !important;
          }
       </style>
-      <link rel='stylesheet' id='contact-form-7-css'  href='/assets/css/styles3c21.css?ver=5.1.1' type='text/css' media='all' />
+      <link rel='stylesheet' id='contact-form-7-css'  href='../assets/css/styles3c21.css?ver=5.1.1' type='text/css' media='all' />
       <style id='woocommerce-inline-inline-css' type='text/css'>
          .woocommerce form .form-row .required { visibility: visible; }
       </style>
-      <link rel='stylesheet' id='yith_wcas_frontend-css'  href='/assets/css/yith_wcas_ajax_searchd87f.css?ver=4.9.9' type='text/css' media='all' />
-      <link rel='stylesheet' id='flatsome-icons-css'  href='/assets/css/fl-icons6de8.css?ver=3.3' type='text/css' media='all' />
-      <link rel='stylesheet' id='flatsome-main-css'  href='/assets/css/flatsome1aae.css?ver=3.5.3' type='text/css' media='all' />
-      <link rel='stylesheet' id='flatsome-shop-css'  href='/assets/css/flatsome-shop1aae.css?ver=3.5.3' type='text/css' media='all' />
-      <link rel='stylesheet' id='flatsome-style-css'  href='/assets/css/style1aae.css' type='text/css' media='all' />
-      <link rel='stylesheet' id='dgwt-wcas-style-css'  href='/assets/css/style1576.css?ver=1.2.1' type='text/css' media='all' />
-      <script type='text/javascript' src='/assets/js/jqueryb8ff.js?ver=1.12.4'></script>
-      <script type='text/javascript' src='/assets/js/jquery-migrate.min330a.js?ver=1.4.1'></script>
+      <link rel='stylesheet' id='yith_wcas_frontend-css'  href='../assets/css/yith_wcas_ajax_searchd87f.css?ver=4.9.9' type='text/css' media='all' />
+      <link rel='stylesheet' id='flatsome-icons-css'  href='../assets/css/fl-icons6de8.css?ver=3.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='flatsome-main-css'  href='../assets/css/flatsome1aae.css?ver=3.5.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='flatsome-shop-css'  href='../assets/css/flatsome-shop1aae.css?ver=3.5.3' type='text/css' media='all' />
+      <link rel='stylesheet' id='flatsome-style-css'  href='../assets/css/style1aae.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='dgwt-wcas-style-css'  href='../assets/css/style1576.css?ver=1.2.1' type='text/css' media='all' />
+      <script type='text/javascript' src='../assets/js/jqueryb8ff.js?ver=1.12.4'></script>
+      <script type='text/javascript' src='../assets/js/jquery-migrate.min330a.js?ver=1.4.1'></script>
       <link rel='https://api.w.org/' href='' />
       <link rel="EditURI" type="application/rsd+xml" title="RSD" href="" />
       <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="" />
@@ -55,7 +55,7 @@ $now = time(); ?>
       <meta name="generator" content="" />
       <link rel="canonical" href="" />
       <link rel='shortlink' href='' />
-      <link rel="alternate" type="application/json+oembed" href="/assets/js/embed9f3f.json?url=https%3A%2F%2Ftemp.503bfacility.com%2F" />
+      <link rel="alternate" type="application/json+oembed" href="../assets/js/embed9f3f.json?url=https%3A%2F%2Ftemp.503bfacility.com%2F" />
       <link rel="alternate" type="text/xml+oembed" href="wp-json/oembed/1.0/embedfc78?url=https%3A%2F%2Ftemp.503bfacility.com%2F&amp;format=xml" />
       <style type="text/css">.dgwt-wcas-search-wrapp{max-width:600px}.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .dgwt-wcas-search-submit::before{border-color:transparent #ee2a32}.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .dgwt-wcas-search-submit:hover::before,.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .dgwt-wcas-search-submit:focus::before{border-right-color:#ee2a32}.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .dgwt-wcas-search-submit{background-color:#ee2a32}.dgwt-wcas-search-wrapp .dgwt-wcas-ico-magnifier{}.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .dgwt-wcas-search-submit::before{border-color:transparent #ee2a32}.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .dgwt-wcas-search-submit:hover::before,.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .dgwt-wcas-search-submit:focus::before{border-right-color:#ee2a32}.dgwt-wcas-search-wrapp .dgwt-wcas-sf-wrapp .dgwt-wcas-search-submit{background-color:#ee2a32}.dgwt-wcas-search-wrapp .dgwt-wcas-ico-magnifier{}</style>
       <style>.bg{opacity: 0; transition: opacity 1s; -webkit-transition: opacity 1s;} .bg-loaded{opacity: 1;}</style>
@@ -67,7 +67,7 @@ $now = time(); ?>
          };
          (function() {
            var wf = document.createElement('script');
-           wf.src = '/assets/js/webfont.js';
+           wf.src = '../assets/js/webfont.js';
            wf.type = 'text/javascript';
            wf.async = 'true';
            var s = document.getElementsByTagName('script')[0];
@@ -77,13 +77,13 @@ $now = time(); ?>
       <noscript>
          <style>.woocommerce-product-gallery{ opacity: 1 !important; }</style>
       </noscript>
-      <link rel="icon" href="/assets/images/cropped-cropped-cropped-favicon-32x32-32x32.png" sizes="32x32" />
-      <link rel="icon" href="/assets/images/cropped-cropped-cropped-favicon-32x32-192x192.png" sizes="192x192" />
+      <link rel="icon" href="../assets/images/cropped-cropped-cropped-favicon-32x32-32x32.png" sizes="32x32" />
+      <link rel="icon" href="../assets/images/cropped-cropped-cropped-favicon-32x32-192x192.png" sizes="192x192" />
       
-      <link rel="apple-touch-icon-precomposed" href="/assets/images/cropped-cropped-cropped-favicon-32x32-180x180.png" />
-      <meta name="msapplication-TileImage" content="/assets/images/cropped-cropped-cropped-favicon-32x32-270x270.png" />
+      <link rel="apple-touch-icon-precomposed" href="../assets/images/cropped-cropped-cropped-favicon-32x32-180x180.png" />
+      <meta name="msapplication-TileImage" content="../assets/images/cropped-cropped-cropped-favicon-32x32-270x270.png" />
       <style id="custom-css" type="text/css">:root {--primary-color: #446084;}/* Site Width */.header-main{height: 93px}#logo img{max-height: 93px}#logo{width:265px;}.header-bottom{min-height: 55px}.header-top{min-height: 30px}.transparent .header-main{height: 265px}.transparent #logo img{max-height: 265px}.has-transparent + .page-title:first-of-type,.has-transparent + #main > .page-title,.has-transparent + #main > div > .page-title,.has-transparent + #main .page-header-wrapper:first-of-type .page-title{padding-top: 295px;}.header.show-on-scroll,.stuck .header-main{height:79px!important}.stuck #logo img{max-height: 79px!important}.header-bottom {background-color: #f1f1f1}.header-main .nav > li > a{line-height: 16px }.stuck .header-main .nav > li > a{line-height: 50px }.header-bottom-nav > li > a{line-height: 16px }@media (max-width: 549px) {.header-main{height: 70px}#logo img{max-height: 70px}}.nav-dropdown{font-size:100%}body{font-family:"Lato", sans-serif}body{font-weight: 400}.nav > li > a {font-family:"Lato", sans-serif;}.nav > li > a {font-weight: 700;}h1,h2,h3,h4,h5,h6,.heading-font, .off-canvas-center .nav-sidebar.nav-vertical > li > a{font-family: "Lato", sans-serif;}h1,h2,h3,h4,h5,h6,.heading-font,.banner h1,.banner h2{font-weight: 700;}.alt-font{font-family: "Dancing Script", sans-serif;}@media screen and (min-width: 550px){.products .box-vertical .box-image{min-width: 300px!important;width: 300px!important;}}/*.footer-2{background-color: #1c62af}.absolute-footer, html{background-color: #1a3c34}*/.label-new.menu-item > a:after{content:"New";}.label-hot.menu-item > a:after{content:"Hot";}.label-sale.menu-item > a:after{content:"Sale";}.label-popular.menu-item > a:after{content:"Popular";}</style>
-      <link rel="stylesheet" type="text/css" href="/assets/css/slice.css">
+      <link rel="stylesheet" type="text/css" href="../assets/css/slice.css">
    </head>
 <style>
     /*.top-divider{*/
@@ -390,7 +390,7 @@ tr:nth-child(even){background-color: #fff}
                         }
                         
                         #banner-45478987 .bg.bg-loaded {
-                            background-image: url(../assets/images/bk.jpg);
+                            background-image: url(..../assets/images/bk.jpg);
                         }
                         
                         #banner-45478987 .bg {
@@ -430,9 +430,9 @@ tr:nth-child(even){background-color: #fff}
                 <!-- <div class="row align-middle about_txt" id="row-59831429">
                     <div class="col abou_fda medium-5 small-12 large-5">
                         <div class="col-inner text-left" style="margin:0px 0px 0 0px;">
-                            <p style="text-align:center"><img style="width: 30%;" src="../assets/images/152248008895104784-1.png" /></p>
+                            <p style="text-align:center"><img style="width: 30%;" src="..../assets/images/152248008895104784-1.png" /></p>
                             <p class="about-text" style="text-align: left;">The FDA is encouraging all hospitals, surgical centers, universities and ophthalmologists to utilize the services of a registered and inspected 503B outsourcing facility to meet their admixing, repackaging and sterile compounding needs. As the laws and regulations expand, only 503B outsourcing facilities like ASP Cares will be able to fulfill your sterile compounding pharmacy needs.
-                                <br /><a href="../assets/pdf/Dear-Colleague-Letter-States-dated-Final-12-31.pdf" target="_blank">See Full FDA Statement</a></p>
+                                <br /><a href="..../assets/pdf/Dear-Colleague-Letter-States-dated-Final-12-31.pdf" target="_blank">See Full FDA Statement</a></p>
                         </div>
                     </div>
                     <div class="col medium-7 small-12 large-7">
@@ -666,7 +666,7 @@ tr:nth-child(even){background-color: #fff}
 
         </main>
         <!-- #main -->
-        <script src="/assets/js/jquery-2.2.4.min.js"></script>
+        <script src="../assets/js/jquery-2.2.4.min.js"></script>
        <?php
          include '../footer.php'
          ?>
@@ -1367,44 +1367,44 @@ tr:nth-child(even){background-color: #fff}
         };
         /* ]]> */
     </script>
-    <script type='text/javascript' src='/assets/js/scripts3c21.js?ver=5.1.1'></script>
-      <script type='text/javascript' src='/assets/js/jquery.blockUI.min44fd.js?ver=2.70'></script>
+    <script type='text/javascript' src='../assets/js/scripts3c21.js?ver=5.1.1'></script>
+      <script type='text/javascript' src='../assets/js/jquery.blockUI.min44fd.js?ver=2.70'></script>
       <script type='text/javascript'>
          /* <![CDATA[ */
          var wc_add_to_cart_params = {"ajax_url":"","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"","is_cart":"","cart_redirect_after_add":"no"};
          /* ]]> */
       </script>
-      <script type='text/javascript' src='/assets/js/add-to-cart.min9d52.js?ver=3.5.1'></script>
-      <script type='text/javascript' src='/assets/js/js.cookie.min6b25.js?ver=2.1.4'></script>
+      <script type='text/javascript' src='../assets/js/add-to-cart.min9d52.js?ver=3.5.1'></script>
+      <script type='text/javascript' src='../assets/js/js.cookie.min6b25.js?ver=2.1.4'></script>
       <script type='text/javascript'>
          /* <![CDATA[ */
          var woocommerce_params = {"ajax_url":""};
          /* ]]> */
       </script>
-      <script type='text/javascript' src='/assets/js/woocommerce.min9d52.js?ver=3.5.1'></script>
+      <script type='text/javascript' src='../assets/js/woocommerce.min9d52.js?ver=3.5.1'></script>
       <script type='text/javascript'>
          /* <![CDATA[ */
          var wc_cart_fragments_params = {"ajax_url":"","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_df2b43ebf4897b222a24124d9f882f16","fragment_name":"wc_fragments_df2b43ebf4897b222a24124d9f882f16"};
          /* ]]> */
       </script>
-      <script type='text/javascript' src='/assets/js/cart-fragments.min9d52.js?ver=3.5.1'></script>
-      <script type='text/javascript' src='/assets/js/yith-autocomplete.min4281.js?ver=1.2.7'></script>
-      <script type='text/javascript' src='/assets/js/flatsome-live-search1aae.js?ver=3.5.3'></script>
-      <script type='text/javascript' src='/assets/js/hoverIntent.minc245.js?ver=1.8.1'></script>
+      <script type='text/javascript' src='../assets/js/cart-fragments.min9d52.js?ver=3.5.1'></script>
+      <script type='text/javascript' src='../assets/js/yith-autocomplete.min4281.js?ver=1.2.7'></script>
+      <script type='text/javascript' src='../assets/js/flatsome-live-search1aae.js?ver=3.5.3'></script>
+      <script type='text/javascript' src='../assets/js/hoverIntent.minc245.js?ver=1.8.1'></script>
       <script type='text/javascript'>
          /* <![CDATA[ */
          var flatsomeVars = {"ajaxurl":"","rtl":"","sticky_height":"79"};
          /* ]]> */
       </script>
-      <script type='text/javascript' src='/assets/js/flatsome1aae.js?ver=3.5.3'></script>
-      <script type='text/javascript' src='/assets/js/woocommerce1aae.js?ver=3.5.3'></script>
-      <script type='text/javascript' src='/assets/js/wp-embed.mind87f.js?ver=4.9.9'></script>
+      <script type='text/javascript' src='../assets/js/flatsome1aae.js?ver=3.5.3'></script>
+      <script type='text/javascript' src='../assets/js/woocommerce1aae.js?ver=3.5.3'></script>
+      <script type='text/javascript' src='../assets/js/wp-embed.mind87f.js?ver=4.9.9'></script>
       <script type='text/javascript'>
          /* <![CDATA[ */
          var dgwt_wcas = {"t":{"sale_badge":"sale","featured_badge":"featured","category":"Category","tag":"tag"},"ajax_search_endpoint":"\/?wc-ajax=dgwt_wcas_ajax_search","ajax_details_endpoint":"\/?wc-ajax=dgwt_wcas_result_details","action_search":"dgwt_wcas_ajax_search","action_result_details":"dgwt_wcas_result_details","min_chars":"3","width":"auto","show_details_box":"","show_images":"1","show_price":"","show_desc":"","show_sale_badge":"","show_featured_badge":"","is_rtl":"","show_preloader":"1","preloader_url":""};
          /* ]]> */
       </script>
-      <script type='text/javascript' src='/assets/js/jquery.dgwt-wcas.min1576.js?ver=1.2.1'></script>
+      <script type='text/javascript' src='../assets/js/jquery.dgwt-wcas.min1576.js?ver=1.2.1'></script>
       <script type="text/javascript">
     $('#nordfrm').on('submit',function(event) {
     event.preventDefault();
