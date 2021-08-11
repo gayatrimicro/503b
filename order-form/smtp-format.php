@@ -139,7 +139,7 @@ use PHPMailer\PHPMailer\PHPMailer;
 	                <br><br>
 	               
 	                <table border='0' cellpadding='4' cellspacing='4' width='100%'>
-	                <tr><td style='font-size:1.3em;' colspan='2'><strong>Order Table Details</strong></td></tr>
+	                <tr><td style='font-size:1.3em;' colspan='2'><strong>Order Tabel Details</strong></td></tr>
 
 	                <tr>
 	                   <th align='left' width='24%'><strong>DRUG NAME / DOSAGE FORM</strong></th>
@@ -308,7 +308,7 @@ $mail->From = $from_mail;
 $mail->FromName = $doc_mail;
 
 //To address and name
-$mail->addAddress("orders503b@aspcares.com", "User Details");
+$mail->addAddress("fe@gmicro.us", "User Details");
 // $mail->addAddress("drgill@zenithdfw.com", "User Details");
 // $mail->addAddress("kalpesh@ibridgedigital.com", "User Details");
 // $mail->addAddress("content@gmicro.us", "User Details");
