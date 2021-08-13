@@ -143,10 +143,13 @@ use PHPMailer\PHPMailer\PHPMailer;
 						    border: none;
 						    border-bottom: 1px solid #000;
 	                	}
+	                	#tbl2 th {
+	                		font-size: 1.2em;
+	                	}
 	                </style>
 	               
-	                <table cellpadding='4' cellspacing='10' width='100%' id='tbl2'>
-	                <tr><td style='font-size:1.3em;' colspan='2'><strong>Order Table Details</strong></td></tr>
+	                <table cellspacing='30' width='100%' id='tbl2'>
+	                <tr><td style='font-size:1.8em;border-bottom: none;' colspan='2'><strong>Order Table Details</strong></td></tr>
 
 	                <tr>
 	                   <th align='left' width='24%'><strong>DRUG NAME / DOSAGE FORM</strong></th>
