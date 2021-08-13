@@ -137,8 +137,15 @@ use PHPMailer\PHPMailer\PHPMailer;
 	                </tr>
 	                </table>
 	                <br><br>
+
+	                <style>
+	                	#tbl2 td{
+						    border: none;
+						    border-bottom: 1px solid #000;
+	                	}
+	                </style>
 	               
-	                <table border='0' cellpadding='4' cellspacing='4' width='100%'>
+	                <table cellpadding='4' cellspacing='10' width='100%' id='tbl2'>
 	                <tr><td style='font-size:1.3em;' colspan='2'><strong>Order Table Details</strong></td></tr>
 
 	                <tr>
