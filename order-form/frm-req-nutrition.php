@@ -138,160 +138,160 @@ use PHPMailer\PHPMailer\PHPMailer;
 	                </table>
 	                <br><br>
 	               
-	                <table border='1' cellpadding='4' cellspacing='4' width='100%'>
-	                <tr><td style='font-size:1.3em;' colspan='2'><strong>Order Table Details</strong></td></tr>
+	                <table cellspacing='30' width='100%'>
+	                <tr><td style='font-size:1.8em;' colspan='2'><strong>Order Table Details</strong></td></tr>
 
 	                <tr>
-	                   <th align='left' width='24%'><strong>DRUG NAME / DOSAGE FORM</strong></th>
-	                   <th align='left' width='24%'><strong>STRENGTH</strong></th>
-	                   <th align='left' width='24%'><strong>QUANTITY</strong></th>
-	                   <th align='left' width='24%'><strong>PRICE (office use only)</strong></th>
+	                   <th align='left' width='24%' style='font-size:1.3em;border-bottom:1px solid #000;background-color:#ddd;'><strong>DRUG NAME / DOSAGE FORM</strong></th>
+	                   <th align='left' width='24%' style='font-size:1.3em;border-bottom:1px solid #000;background-color:#ddd;'><strong>STRENGTH</strong></th>
+	                   <th align='left' width='24%' style='font-size:1.3em;border-bottom:1px solid #000;background-color:#ddd;'><strong>QUANTITY</strong></th>
+	                   <th align='left' width='24%' style='font-size:1.3em;border-bottom:1px solid #000;background-color:#ddd;'><strong>PRICE (office use only)</strong></th>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>Arginine Hydrochloride MDV </td>
-	                   <td align='left' width='24%'>200 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq1 ."</td>
-	                   <td align='left' width='24%'>".  $snp1 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Arginine Hydrochloride MDV </td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>200 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq1 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp1 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>Ascorbic Acid MDV</td>
-	                   <td align='left' width='24%'>500 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq2 ."</td>
-	                   <td align='left' width='24%'>".  $snp2 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Ascorbic Acid MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>500 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq2 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp2 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>B-Complex (B1/B2/B3/B5/B6) MDV</td>
-	                   <td align='left' width='24%'>00/2/100/2/2 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq3 ."</td>
-	                   <td align='left' width='24%'>".  $snp3 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>B-Complex (B1/B2/B3/B5/B6) MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>00/2/100/2/2 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq3 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp3 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>Biotin MDV </td>
-	                   <td align='left' width='24%'>10 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq4 ."</td>
-	                   <td align='left' width='24%'>".  $snp4 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Biotin MDV </td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>10 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq4 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp4 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>Dexpanthenol MDV</td>
-	                   <td align='left' width='24%'>250 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq5 ."</td>
-	                   <td align='left' width='24%'>".  $snp5 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Dexpanthenol MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>250 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq5 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp5 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>Edetate Calcium Disodium MDV</td>
-	                   <td align='left' width='24%'>300 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq6 ."</td>
-	                   <td align='left' width='24%'>".  $snp6 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Edetate Calcium Disodium MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>300 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq6 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp6 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>Glutathione MDV</td>
-	                   <td align='left' width='24%'>200 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq7 ."</td>
-	                   <td align='left' width='24%'>".  $snp7 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Glutathione MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>200 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq7 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp7 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>Methionine/Inositol/Choline Chloride/Cyanocobalamin MDV</td>
-	                   <td align='left' width='24%'>25/50/50/1 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq8 ."</td>
-	                   <td align='left' width='24%'>".  $snp8 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Methionine/Inositol/Choline Chloride/Cyanocobalamin MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>25/50/50/1 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq8 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp8 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>Methylcobalamin MDV</td>
-	                   <td align='left' width='24%'>1 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq9 ."</td>
-	                   <td align='left' width='24%'>".  $snp9 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Methylcobalamin MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>1 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq9 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp9 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>Pyridoxine HCl MDV</td>
-	                   <td align='left' width='24%'>100 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq10 ."</td>
-	                   <td align='left' width='24%'>".  $snp10 ."</td>
-	                </tr>
-
-	                <tr>
-	                   <td align='left' width='24%'>Taurine MDV </td>
-	                   <td align='left' width='24%'>50 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq11 ."</td>
-	                   <td align='left' width='24%'>".  $snp11 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Pyridoxine HCl MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>100 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq10 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp10 ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='24%'>Testosterone Cypionate (Grapeseed Oil) MDV</td>
-	                   <td align='left' width='24%'>200 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq12 ."</td>
-	                   <td align='left' width='24%'>".  $snp12 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Taurine MDV </td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>50 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq11 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp11 ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='24%'>Zinc (Sulfate) MDV</td>
-	                   <td align='left' width='24%'>2.5 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq13 ."</td>
-	                   <td align='left' width='24%'>".  $snp13 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Testosterone Cypionate (Grapeseed Oil) MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>200 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq12 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp12 ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='24%'>Magnesium Chloride MDV</td>
-	                   <td align='left' width='24%'>200 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq14 ."</td>
-	                   <td align='left' width='24%'>".  $snp14 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Zinc (Sulfate) MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>2.5 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq13 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp13 ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='24%'>Calcium Gluconate SDV ".  $sncg10 ." , ".  $sncg50 ."</td>
-	                   <td align='left' width='24%'>10%</td>
-	                   <td align='left' width='24%'>".  $snq15 ."</td>
-	                   <td align='left' width='24%'>".  $snp15 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Magnesium Chloride MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>200 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq14 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp14 ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='24%'>Folic Acid MDV</td>
-	                   <td align='left' width='24%'>5 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq16 ."</td>
-	                   <td align='left' width='24%'>".  $snp16 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Calcium Gluconate SDV ".  $sncg10 ." , ".  $sncg50 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>10%</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq15 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp15 ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='24%'>Ketorolac Tromethamine SDV</td>
-	                   <td align='left' width='24%'>30 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq17 ."</td>
-	                   <td align='left' width='24%'>".  $snp17 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Folic Acid MDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>5 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq16 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp16 ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='24%'>Ondansetron HCl MDV ".  $snohm2 ." , ".  $snohm20 ."</td>
-	                   <td align='left' width='24%'>2 mg/mL</td>
-	                   <td align='left' width='24%'>".  $snq18 ."</td>
-	                   <td align='left' width='24%'>".  $snp18 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Ketorolac Tromethamine SDV</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>30 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq17 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp17 ."</td>
+	                </tr>
+
+	                <tr>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Ondansetron HCl MDV ".  $snohm2 ." , ".  $snohm20 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>2 mg/mL</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snq18 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $snp18 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>".  $stb51 ."</td>
-	                   <td align='left' width='24%'>".  $stb52 ."</td>
-	                   <td align='left' width='24%'>".  $stb53 ."</td>
-	                   <td align='left' width='24%'>".  $stb54 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb51 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb52 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb53 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb54 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>".  $stb61 ."</td>
-	                   <td align='left' width='24%'>".  $stb62 ."</td>
-	                   <td align='left' width='24%'>".  $stb63 ."</td>
-	                   <td align='left' width='24%'>".  $stb64 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb61 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb62 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb63 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb64 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>".  $stb71 ."</td>
-	                   <td align='left' width='24%'>".  $stb72 ."</td>
-	                   <td align='left' width='24%'>".  $stb73 ."</td>
-	                   <td align='left' width='24%'>".  $stb74 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb71 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb72 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb73 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb74 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>".  $stb81 ."</td>
-	                   <td align='left' width='24%'>".  $stb82 ."</td>
-	                   <td align='left' width='24%'>".  $stb83 ."</td>
-	                   <td align='left' width='24%'>".  $stb84 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb81 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb82 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb83 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb84 ."</td>
 	                </tr>
 	                <tr>
-	                   <td align='left' width='24%'>".  $stb91 ."</td>
-	                   <td align='left' width='24%'>".  $stb92 ."</td>
-	                   <td align='left' width='24%'>".  $stb93 ."</td>
-	                   <td align='left' width='24%'>".  $stb94 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb91 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb92 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb93 ."</td>
+	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>".  $stb94 ."</td>
 	                </tr>
 
 					 
