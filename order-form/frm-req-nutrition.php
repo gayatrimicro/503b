@@ -107,32 +107,32 @@ use PHPMailer\PHPMailer\PHPMailer;
 
 			   		<tr><td style='font-size:1.8em;' colspan='2'><strong>Order Details</strong></td></tr>
 	   			   	<tr>
-	                   <td align='left' width='15%'><strong>Bill To :</strong></td>
-	                   <td align='left' width='80%'>
+	                   <td align='left' width='10%' style='border-bottom:1px solid #000;'><strong>Bill To :</strong></td>
+	                   <td align='left' width='85%' style='border-bottom:1px solid #000;'>
 	                   ".  $sbillto ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='15%'><strong>Ship To :</strong></td>
-	                   <td align='left' width='80%'>
+	                   <td align='left' width='10%' style='border-bottom:1px solid #000;'><strong>Ship To :</strong></td>
+	                   <td align='left' width='85%' style='border-bottom:1px solid #000;'>
 	                   ".  $sshipto ."</td>
 	                </tr>
 
 	   			   	<tr>
-	                   <td align='left' width='15%'><strong>Shipping Date :</strong></td>
-	                   <td align='left' width='80%'>
+	                   <td align='left' width='10%' style='border-bottom:1px solid #000;'><strong>Shipping Date :</strong></td>
+	                   <td align='left' width='85%' style='border-bottom:1px solid #000;'>
 	                   ".  $sshipdate ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='15%'><strong>Order By :</strong></td>
-	                   <td align='left' width='80%'>
+	                   <td align='left' width='10%' style='border-bottom:1px solid #000;'><strong>Order By :</strong></td>
+	                   <td align='left' width='85%' style='border-bottom:1px solid #000;'>
 	                   ".  $snodby ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='15%'><strong>Date :</strong></td>
-	                   <td align='left' width='80%'>
+	                   <td align='left' width='10%' style='border-bottom:1px solid #000;'><strong>Date :</strong></td>
+	                   <td align='left' width='85%' style='border-bottom:1px solid #000;'>
 	                   ".  $snodte ."</td>
 	                </tr>
 	                </table>
