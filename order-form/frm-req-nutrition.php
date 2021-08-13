@@ -142,10 +142,10 @@ use PHPMailer\PHPMailer\PHPMailer;
 	                <tr><td style='font-size:1.8em;' colspan='2'><strong>Order Table Details</strong></td></tr>
 
 	                <tr>
-	                   <th align='left' width='24%' style='font-size:1.3em;border-bottom:1px solid #000;background-color:#ddd;'><strong>DRUG NAME / DOSAGE FORM</strong></th>
-	                   <th align='left' width='24%' style='font-size:1.3em;border-bottom:1px solid #000;background-color:#ddd;'><strong>STRENGTH</strong></th>
-	                   <th align='left' width='24%' style='font-size:1.3em;border-bottom:1px solid #000;background-color:#ddd;'><strong>QUANTITY</strong></th>
-	                   <th align='left' width='24%' style='font-size:1.3em;border-bottom:1px solid #000;background-color:#ddd;'><strong>PRICE (office use only)</strong></th>
+	                   <th align='left' width='24%' style='font-size:1.1em;border-bottom:1px solid #000;background-color:#ddd;'><strong>DRUG NAME / DOSAGE FORM</strong></th>
+	                   <th align='left' width='24%' style='font-size:1.1em;border-bottom:1px solid #000;background-color:#ddd;'><strong>STRENGTH</strong></th>
+	                   <th align='left' width='24%' style='font-size:1.1em;border-bottom:1px solid #000;background-color:#ddd;'><strong>QUANTITY</strong></th>
+	                   <th align='left' width='24%' style='font-size:1.1em;border-bottom:1px solid #000;background-color:#ddd;'><strong>PRICE (office use only)</strong></th>
 	                </tr>
 	                <tr>
 	                   <td align='left' width='24%' style='border-bottom:1px solid #000;'>Arginine Hydrochloride MDV </td>
