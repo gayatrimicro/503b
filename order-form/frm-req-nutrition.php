@@ -105,34 +105,34 @@ use PHPMailer\PHPMailer\PHPMailer;
 
 	$message= "<table border='0' cellpadding='4' cellspacing='4' width='100%'>
 
-			   		<tr><td style='font-size:1.3em;' colspan='2'><strong>Order Details</strong></td></tr>
+			   		<tr><td style='font-size:1.8em;' colspan='2'><strong>Order Details</strong></td></tr>
 	   			   	<tr>
-	                   <td align='left' width='25%'><strong>Bill To :</strong></td>
-	                   <td align='left' width='60%'>
+	                   <td align='left' width='15%'><strong>Bill To :</strong></td>
+	                   <td align='left' width='80%'>
 	                   ".  $sbillto ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='25%'><strong>Ship To :</strong></td>
-	                   <td align='left' width='60%'>
+	                   <td align='left' width='15%'><strong>Ship To :</strong></td>
+	                   <td align='left' width='80%'>
 	                   ".  $sshipto ."</td>
 	                </tr>
 
 	   			   	<tr>
-	                   <td align='left' width='25%'><strong>Shipping Date :</strong></td>
-	                   <td align='left' width='60%'>
+	                   <td align='left' width='15%'><strong>Shipping Date :</strong></td>
+	                   <td align='left' width='80%'>
 	                   ".  $sshipdate ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='25%'><strong>Order By :</strong></td>
-	                   <td align='left' width='60%'>
+	                   <td align='left' width='15%'><strong>Order By :</strong></td>
+	                   <td align='left' width='80%'>
 	                   ".  $snodby ."</td>
 	                </tr>
 
 	                <tr>
-	                   <td align='left' width='25%'><strong>Date :</strong></td>
-	                   <td align='left' width='60%'>
+	                   <td align='left' width='15%'><strong>Date :</strong></td>
+	                   <td align='left' width='80%'>
 	                   ".  $snodte ."</td>
 	                </tr>
 	                </table>
