@@ -406,70 +406,78 @@ if ($now < $_SESSION['expire']) {
             #noemail{display:none;}
             #chkemail{display: none}
             /*pop up nds*/
-            /*download form white box*/
-            .whitebox{
-               padding: 50px 20px;
+            /*custom modal css*/
+            .modal {
+              display: none; /* Hidden by default */
+              position: fixed; /* Stay in place */
+              z-index: 1; /* Sit on top */
+              left: 0;
+              top: 0;
+              width: 100%; /* Full width */
+              height: 100%; /* Full height */
+              overflow: auto; /* Enable scroll if needed */
+              background-color: rgb(0,0,0); /* Fallback color */
+              background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
             }
-            .whitebox .row{
-               background-color: #fff;
-               transform: translateZ(0);
-               box-shadow: 3px 3px 20px 0 rgb(0 0 0 / 15%);
+
+            /* Modal Content/Box */
+            .modal-content {
+              background-color: #fefefe;
+              margin: 15% auto; /* 15% from the top and centered */
+              padding: 5px 30px;
+              border: 1px solid #888;
+              width: fit-content; /* Could be more or less, depending on screen size */
             }
-            .m-left10{
-               margin-left: 20px !important;
+
+            /* The Close Button */
+            .close {
+              color: #aaa;
+              float: right;
+              font-size: 28px;
+              font-weight: bold;
             }
-            @media only screen and (max-width: 600px) {
-              .m-left10{
-               margin-left: 0px !important;
-            }
+
+            .close:hover,
+            .close:focus {
+              color: black;
+              text-decoration: none;
+              cursor: pointer;
             }
          </style>
         </div>
         <main id="main" class="main">
-         <div class="whitebox">
-            <div class="row" id="row-1765825053">
-            
-        
-               <div class="col regreg small-12 large-12">
-                   <div class="col-inner m-left10" style="margin:50px 0px 0px 0px;">                 
-                        <h1 style="margin-bottom: 0px;">Not an ASP Cares Pharmacy Customer yet?</h1>
-                     
-                        
-                  <!-- <a rel="noopener noreferrer" href="../assets/pdf/Order-Form.pdf" target="_blank" class="button secondary is-large lowercase mobile_btn_d">
-                           <span>Download Order Form</span>
-                       </a> -->
+        <div class="row" id="row-1765825053">
+            <div class="col regreg small-12 large-12">
+                <div class="col-inner" style="margin:50px 0px 0px 0px;">                 
+                    <h1 style="margin-bottom: 20px;">Not an ASP Cares Pharmacy Customer yet?</h1>
+                    <a rel="noopener noreferrer" href="../assets/pdf/New Account Setup Packet April 2021.pdf" target="_blank" class="button secondary is-large lowercase mobile_btn_d">
+                        <span>Download Account Set-up Form</span>
+                    </a>
+               <a rel="noopener noreferrer" href="../assets/pdf/Order-Form.pdf" target="_blank" class="button secondary is-large lowercase mobile_btn_d">
+                        <span>Download Order Form</span>
+                    </a>
+                    <a rel="noopener noreferrer" id="myBtn" class="button secondary is-large lowercase mobile_btn_d">
+                        <span>Fill Account Set-up Form Online</span>
+                    </a>
 
-                   </div>
-
-               </div>
-               <div class="col regreg small-12 large-12">
-                  <div class="col-inner m-left10" >
-                     <ul>
-                           <li style="margin-top: 0px; padding-top: 0px;margin-left: 0px;">1. Click the button below to Download Account Setup Form </li>
-                           <li style="margin-top: 0px; padding-top: 0px;margin-left: 0px;">2. Once downloaded, fill, scan and send it to Orders503b@aspcares.com</li>
-                        </ul>
-                        <a rel="noopener noreferrer" href="../assets/pdf/New Account Setup Packet April 2021.pdf" target="_blank" class="button secondary is-large lowercase ">
-                           <span>Download Account Set-up Form</span>
-                       </a>
-                   </div>
-               </div>
-               <div class="col regreg small-12 large-12 text-center">
-                   <div class="col-inner">
-                     <?php
-                     if( isset($_SESSION['error']) )
-                     {
-                        echo '<p style="color: red;">'.$_SESSION['error'].'</p>';
-                        unset($_SESSION['error']);
-                     } ?>
-                     <?php
-                     if( isset($_SESSION['success']) )
-                     {
-                        echo '<p style="color: green;">'.$_SESSION['success'].'</p>';
-                        unset($_SESSION['success']);
-                     } ?>
-                   </div>
-               </div>
+                </div>
             </div>
+         <div class="col regreg small-12 large-12 text-center">
+                <div class="col-inner">
+                  <?php
+                  if( isset($_SESSION['error']) )
+                  {
+                     echo '<p style="color: red;">'.$_SESSION['error'].'</p>';
+                     unset($_SESSION['error']);
+                  } ?>
+                  <?php
+                  if( isset($_SESSION['success']) )
+                  {
+                     echo '<p style="color: green;">'.$_SESSION['success'].'</p>';
+                     unset($_SESSION['success']);
+                  } ?>
+                </div>
+             </div>
         </div>
         <div id="login-form-popup" class="lightbox-content">         
          <div class="popup" data-popup="popup-1">
@@ -569,10 +577,8 @@ if ($now < $_SESSION['expire']) {
          <!--fourth box ends -->
          <p class="registration"></p>
          <div class="woocommerce-notices-wrapper"></div>
-         <div class="account-container lightbox-inner" style="display: none">
-            
-            
-            <div class="col2-set row row-divided row-large" id="customer_login" style="display: none">
+         <div class="account-container lightbox-inner">
+            <div class="col2-set row row-divided row-large" id="customer_login">
                <div class="col-1 large-12 col pb-0" id="login-pop">
                   <div class="account-login-inner" >
                      <h3 class="uppercase_reg">Register &nbsp;&nbsp;&nbsp;</h3>
@@ -969,6 +975,28 @@ if ($now < $_SESSION['expire']) {
          <!-- .account-login-container -->
       </div>
         </main>
+        <div id="myModal" class="modal">
+
+           <!-- Modal content -->
+           <div class="modal-content">
+             <span class="close">&times;</span><br><br>
+             <h4>Please provide Following details to fill form online</h4>
+                <form id="book_app">
+                 <div class="mb-3">
+                   <label for="exampleInputEmail1" class="form-label">Email address</label>
+                   <input type="email" name="em" required="" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                   
+                 </div>
+                 <div class="mb-3">
+                   <label for="exampleInputPassword1"  class="form-label">Name</label>
+                   <input name="nm" type="text" required="" class="form-control" id="exampleInputPassword1">
+                 </div>
+                 
+                 <button type="submit" class="woocommerce-Button button btn btn-primary">Submit</button>
+               </form>
+           </div>
+
+         </div>
         <script src="/assets/js/jquery-2.2.4.min.js"></script>
         <?php include '../footer.php' ?>
          <script>
@@ -1274,7 +1302,60 @@ if ($now < $_SESSION['expire']) {
          /* ]]> */
       </script>
       <script type='text/javascript' src='../assets/js/password-strength-meter.min9d52.js?ver=3.5.1'></script>
- 
+      <script type="text/javascript">
+         // Get the modal
+         var modal = document.getElementById("myModal");
+
+         // Get the button that opens the modal
+         var btn = document.getElementById("myBtn");
+
+         // Get the <span> element that closes the modal
+         var span = document.getElementsByClassName("close")[0];
+
+         // When the user clicks on the button, open the modal
+         btn.onclick = function() {
+           modal.style.display = "block";
+         }
+
+         // When the user clicks on <span> (x), close the modal
+         span.onclick = function() {
+           modal.style.display = "none";
+         }
+
+         // When the user clicks anywhere outside of the modal, close it
+         window.onclick = function(event) {
+           if (event.target == modal) {
+             modal.style.display = "none";
+           }
+         }
+
+          $('#book_app').submit(function(event) {
+
+               event.preventDefault();
+               var formdata = $('#book_app').serialize();
+      
+            $.ajax({
+                  url:"apis/senddoc.php",
+                  method:"POST",
+                  data:formdata,
+                  success:function(data)
+                  {
+                      console.log(data);
+                      if(data == 'success'){
+                        alert("Please check your mail to fill from");
+                        var modal = document.getElementById("myModal");
+                        modal.style.display = "none";
+                      }
+                      else{
+                        alert("Something went wrong!");
+                      }
+                        // load_data();
+                        //location.reload();
+                  }
+              });
+           });
+      
+      </script>
 </body>
 </html>
         <?php }?>
