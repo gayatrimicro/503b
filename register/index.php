@@ -445,7 +445,7 @@ if ($now < $_SESSION['expire']) {
                <div class="col regreg small-12 large-12">
                   <div class="col-inner m-left10" >
                      <ul>
-                           <li style="margin-top: 0px; padding-top: 0px;margin-left: 0px;">1. Click the button below to Download Account Setup Form </li>
+                           <li style="margin-top: 0px; padding-top: 0px;margin-left: 0px;">1. Click below to Download Account Setup Form </li>
                            <li style="margin-top: 0px; padding-top: 0px;margin-left: 0px;">2. Once downloaded, fill, scan and send it to Orders503b@aspcares.com</li>
                         </ul>
                         <a rel="noopener noreferrer" href="../assets/pdf/New Account Setup Packet April 2021.pdf" target="_blank" class="button secondary is-large lowercase ">

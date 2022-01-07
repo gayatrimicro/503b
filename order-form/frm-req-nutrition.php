@@ -336,7 +336,8 @@ $mail->CharSet = 'UTF-8';
 //$mail->Username   = 'business@ibridgedigital.com';                     // SMTP username
 //$mail->Password   = 'command55$';                               // SMTP password
 $mail->Username   = 'cvo@specialtycareclinics.com';                     // SMTP username
-$mail->Password   = 'JaiMata$di@';                               // SMTP password`PHPMailer::ENCRYPTION_SMTPS` encouraged
+//$mail->Password   = 'JaiMata$di@';                               // SMTP password`PHPMailer::ENCRYPTION_SMTPS` encouraged
+$mail->Password   = 'SCC!@345';                               // SMTP password`PHPMailer::ENCRYPTION_SMTPS` encouraged
 $mail->setFrom('cvo@specialtycareclinics.com');
 
 $mail->Subject = "Appointment Form";
