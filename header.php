@@ -6,6 +6,53 @@
   background-color: #444242;
   margin: 4px 0;
 }
+
+#custmpop{
+   /*padding: 15px;*/
+   z-index: 10;
+   position: absolute;
+   left: 35%;
+   background: white;
+
+   top: 5%;
+}
+.popbody{
+   padding: 25px;
+   color: black;
+   text-align: center;
+}
+.popclose{
+   color: white;
+   background-color: #1c61af;
+   padding: 8px 15px;
+   cursor: pointer;
+   font-size: 18px;
+}
+.ordertoggle{
+   cursor: pointer;
+}
+.popbody p{
+   margin-bottom: 25px;
+   font-size: 18px;
+}
+#custmpop{
+   display: none;
+}
+
+@media (max-width : 649px){
+   #custmpop {
+       /* padding: 15px; */
+       z-index: 1046;
+       position: absolute;
+       right: 10% !important;
+       /* r: 0; */
+        left: 10%; 
+       background: white;
+       top: 5%;
+       width: 80%;
+   }
+}
+
 @media (max-width : 849px){
    .mobilemenu{
           width: 132px !important;
@@ -132,9 +179,11 @@
                             <li id="menu-item-379" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-379"><a href="/drug-shortage/" class="nav-top-link">Drug shortage</a></li>
 
 
-
-                           <li id="menu-item-1029" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-1029"><a href="/ordering/public/company-login" target="_blank
-                              " class="nav-top-link">Ordering</a></li>
+                            <li onclick="ordertoggle()" id="menu-item-1029" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-1029"><a  class="nav-top-link ordertoggle" id="ordertoggle">Ordering</a></li>
+                           <!-- <li id="menu-item-1029" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-1029"><a href="/ordering/public/company-login" target="_blank
+                              " class="nav-top-link">Ordering</a></li> -->
+							
+							<li id="menu-item-1038" class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-1029"><a href="/lot-bud" class="nav-top-link">LOT/BUD check</a></li>
                            <?php //var_dump($_SESSION); die();
                            if ($_SESSION == NULL) { ?>
                               <li id="menu-item-379" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-379"><a href="/register" class="nav-top-link">Register</a></li>                              
@@ -221,8 +270,10 @@
 
                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1029"><a href="/drug-shortage" class="nav-top-link">Drug shortage</a></li>
 
-
-               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1029"><a href="/ordering/public/company-login" class="nav-top-link">Ordering</a></li>
+               <li onclick="ordertoggle()" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1029"><a  class="nav-top-link ordertoggle" id="ordertoggle">Ordering</a></li>
+               <!-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1029"><a href="/ordering/public/company-login" class="nav-top-link">Ordering</a></li> -->
+				
+				<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1029"><a href="/lot-bud" class="nav-top-link">LOT/BUD check</a></li>
 
                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-379"><a href="/register/" class="nav-top-link">Register</a></li>
 
@@ -250,4 +301,10 @@
             </ul>
          </div>
          <!-- inner -->
+      </div>
+      <div id="custmpop" class="custmpop">
+         <div class="popbody">
+            <p>Kindly send order details to <a href="mailto:rsagi@aspcares.com">rsagi@aspcares.com</a></p>
+            <a onclick="ordertoggle()" class="popclose">Close</a>
+         </div>
       </div>

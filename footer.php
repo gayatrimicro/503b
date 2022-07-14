@@ -112,7 +112,17 @@
 
     <!-- Include Multislider -->
     <script src="/assets/js/multislider.min.js"></script>
-
+    <script type="text/javascript">
+      document.getElementById("ordertoggle").click();
+      function ordertoggle() {
+        var x = document.getElementById("custmpop");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
     <!-- Initialize element with Multislider -->
     <script>
     $('#exampleSlider').multislider({
